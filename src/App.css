@@ -1,0 +1,103 @@
+.app {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;	
+  justify-items: center;
+  background-color: #23395d;
+  
+}
+
+#webcam {
+  border: 1px solid black;
+  width: 320px;
+  height: 240px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#canvas {
+  border: 1px solid black;
+  width: 320px;
+  height: 240px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#snapButton{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-right: auto;
+  bottom: 36px;
+  padding: 5px;
+  background-color: #6a67ce;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1.0);
+  cursor: pointer;
+}
+
+#switchCamera{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 36px;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: #6a67ce;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1.0);
+  cursor: pointer;
+}
+
+h1 {
+  font-family: Arial;
+  text-align: center;
+}
+
+.card {
+  width: 90%;
+  margin-left: 5%;
+}
+
+card {
+  width: 60%;
+  margin-left: 15%;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  clear: both;
+}
+
+.content {
+  position: absolute;
+  font-size: 16px;
+  text-align: center;
+  background-color: #23395d;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    margin-left:50px;
+    margin-right:50px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  p {
+    margin-left:500px;
+    margin-right:500px;
+  }
+}
